@@ -1,0 +1,200 @@
+html, 
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+hr {
+    border: 1px solid #272361 !important;
+}
+
+.bg-info {
+    background-color: #272361 !important;
+}
+
+label {
+    color: #272361 !important;
+}
+
+.text-info {
+    color: #272361 !important;
+    cursor: default;
+}
+
+.text-info a {
+    text-decoration: none !important;
+    color: #272361 !important;
+}
+
+.text-info:hover {
+    color: #272361 !important;
+    text-decoration: none !important;
+}
+
+.btn-info {
+    background-color: white !important;
+    border-color: white !important;
+    color: #272361 !important;
+}
+
+.btn-info:hover {
+    background-color: #272361 !important;
+    border-color: white !important;
+    color: white !important;
+}
+
+.btn-info-dark {
+    background-color: #272361 !important;
+    border-color: #272361 !important;
+    color: white !important;
+}
+
+.btn-info-dark:hover {
+    background-color: white !important;
+    border-color: #272361 !important;
+    color: #272361 !important;
+}
+
+.btn-info-dark-price {
+    background-color: #272361 !important;
+    border-color: #272361 !important;
+    color: white !important;
+}
+
+.btn-info-dark-price:hover {
+    background-color: #eee !important;
+    border-color: #272361 !important;
+    color: #272361 !important;
+}
+
+.icon-info {
+    color: white !important;
+}
+
+.section-dark {
+    background-color: #272361 !important;
+}
+
+
+.navbar-brand {
+    font-size: 16px !important;
+}
+
+.for-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .for-mobile {
+        display: block;
+    }
+    .for-fullHd {
+        display: none;
+    }
+    .page-header {
+        background-image: none !important;
+    }
+    .page-header .filter::after {
+        background-color: #f5f5f5 !important;
+    }
+    strong {
+        color: #272361 !important;
+    }
+}
+
+.columns {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #272361;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#btnPhone {
+    border: 0px solid white;
+    display: block;
+    position: fixed;
+    z-index: 99;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+    font-size: 25px;
+    outline: none;
+    background: #272361;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#btnPhone .fa {
+    display: inline;
+}
+
+#btnMail {
+    border: 0px solid #272361;
+    display: block;
+    position: fixed;
+    z-index: 99;
+    right: 100px;
+    width: 70px;
+    height: 70px;
+    bottom: 7px;
+    font-size: 45px;
+    outline: none;
+    background-color: #0084ff;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#btnMail .fa {
+    display: inline;
+}
+
+#btnMail:hover {
+    background-color: #2d9aff;
+    border: 0px solid white;
+    color: white;
+}
