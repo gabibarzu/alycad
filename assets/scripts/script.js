@@ -62,3 +62,22 @@ $('.count').each(function () {
         }
     });
 });
+
+var buttonMessenger = document.getElementById("button-messenger");
+var buttonPhone = document.getElementById("button-phone");
+
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+        buttonMessenger.style.visibility = "hidden";
+        buttonMessenger.style.opacity = "0";
+        buttonPhone.style.visibility = "hidden";
+        buttonPhone.style.opacity = "0";
+    } else {
+        buttonMessenger.style.visibility = "visible";
+        buttonMessenger.style.opacity = "1";
+        buttonPhone.style.visibility = "visible";
+        buttonPhone.style.opacity = "1";
+    }
+}
