@@ -1,0 +1,188 @@
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #262261;
+}
+
+.footer {
+  background-color: #262261;
+  color: white;
+  padding: 20px 0px;
+}
+
+.hero {
+  height: 100vh;
+  margin-bottom: 0;
+  border-radius: 0;
+  background-image: url("/assets/img/alycad-wallpaper.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+.section {
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.section-dark {
+  background-color: #262261;
+  color: white;
+}
+
+.section-gray {
+  background-color: #8b8b95;
+  color: white;
+}
+
+.title {
+  padding-bottom: 15px;
+}
+
+.description {
+  opacity: 0.7;
+  padding-bottom: 35px;
+}
+
+.image-text {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.image-text .image {
+  width: 150px;
+  height: 150px;
+  padding-bottom: 20px;
+}
+
+.image-text .image-small {
+  width: 100px;
+  height: 100px;
+}
+
+.section-dark .image-text .image {
+  filter: invert(1);
+}
+
+.image-text .caption {
+  font-size: 20px;
+  display: block;
+  opacity: 0.7;
+}
+
+.profile-image {
+  height: 250px;
+  width: 250px;
+  border: 5px solid white;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.text-opacity {
+  opacity: 0.7;
+}
+
+.social-link {
+  text-decoration: none;
+  color: #262261;
+  font-size: 20px;
+}
+
+.section-dark .social-link {
+  color: white;
+}
+
+.social-link:hover {
+  text-decoration: none;
+  color: #262261;
+}
+
+.social-link p {
+  transition: 0.3s ease-in-out;
+  display: table;
+  margin: 0 auto;
+}
+
+.social-link:hover p {
+  box-shadow: inset 0 -1px 0 0 #262261;
+}
+
+.section-dark .social-link:hover p {
+  box-shadow: inset 0 -1px 0 0 white;
+}
+
+.section-dark .social-link:hover {
+  color: white;
+}
+
+.social-image {
+  height: 70px;
+  width: 70px;
+  transition: 0.3s ease-in-out;
+  filter: grayscale(0.3);
+  margin-bottom: 20px;
+}
+
+.social-link:hover .social-image {
+  filter: grayscale(0);
+}
+
+.map-container {
+  height: 600px;
+  width: 100%;
+}
+
+.text-break {
+  word-break: break-word;
+}
+
+#backToTop {
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+}
+
+#backToTop:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+  box-shadow: inset 0 -1px 0 0 white;
+}
+
+.count {
+  font-size: 40px;
+  margin-bottom: 0;
+  min-width: 150px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ecf0f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #95a5a6;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7f8c8d;
+}
