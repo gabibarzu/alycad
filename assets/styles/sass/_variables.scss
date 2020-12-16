@@ -1,0 +1,10 @@
+$purple: #262261;
+$pale-gray: #ecf0f1;
+$dark-gray: #636e72;
+$white: #fff;
+
+$primary-color: $purple;
+
+@mixin alycad-transition {
+  transition: 0.3s ease-in-out;
+}

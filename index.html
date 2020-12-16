@@ -1,24 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="ro">
   <head>
-    <title>AlyCAD</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Alycad - Cadastru şi Topografie Iaşi</title>
+
     <!-- Meta tags -->
-    <!-- SEO -->
-    <meta
-      name="google-site-verification"
-      content="n3eedIGA30mAFZM8N6LyRwbbNLUdi5hMkPjpNJ9nyJc"
-    />
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Alycad - Cadastru şi Topografie Iaşi" />
     <meta
       name="description"
-      content="Firmă autorizată de către Agenția Națională de Cadastru și Publicitate Imobiliară, va oferă servicii de cadastru și topografie, în vederea înscrierii imobilului dumneavoastră în cartea funciară (intabulare imobil), dezmembrări/alipiri, planuri parcelare, ridicări topografice în scopul obținerii autorizației de construire."
+      content="Persoană fizică autorizată oferă servicii de cadastru și topografie, înscrierii imobilului în cartea funciară, dezmembrări/alipiri, planuri parcelare, ridicări topografice."
     />
     <meta
       name="keywords"
       content="Cadastru, Topografie, Intabulari, Cadastru Iasi, Topografie Iasi, Alin, Remus, AlyCAD, Dezalipiri, Dezmembrari, Romania, Iasi"
     />
     <meta name="author" content="Andronachi Remus-Alin" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Alycad - Cadastru şi Topografie Iaşi" />
+    <meta
+      property="og:description"
+      content="Persoană fizică autorizată oferă servicii de cadastru și topografie, înscrierii imobilului în cartea funciară, dezmembrări/alipiri, planuri parcelare, ridicări topografice."
+    />
+    <meta
+      property="og:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta
+      property="twitter:title"
+      content="Alycad - Cadastru şi Topografie Iaşi"
+    />
+    <meta
+      property="twitter:description"
+      content="Persoană fizică autorizată oferă servicii de cadastru și topografie, înscrierii imobilului în cartea funciară, dezmembrări/alipiri, planuri parcelare, ridicări topografice."
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
     <!-- Favicons-->
     <link
       rel="apple-touch-icon"
@@ -54,10 +82,10 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
     <!-- Custom style -->
-    <link href="/assets/styles/style.css" rel="stylesheet" />
-    <link href="/assets/styles/overwrite.css" rel="stylesheet" />
+    <link href="/assets/styles/css/style.css" rel="stylesheet" />
   </head>
-  <body data-spy="scroll" data-target="#navbar" data-offset="50">
+
+  <body>
     <nav
       id="navbar"
       class="navbar navbar-expand-md navbar-dark bg-default fixed-top"
@@ -74,27 +102,27 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#acasa">
+            <a class="nav-link scroll" href="#acasa">
               <i class="material-icons">reorder</i> Acasă
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#servicii">
+            <a class="nav-link scroll" href="#servicii">
               <i class="material-icons">analytics</i> Servicii
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#proiecte">
+            <a class="nav-link scroll" href="#proiecte">
               <i class="material-icons">perm_media</i> Proiecte
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#despreMine">
+            <a class="nav-link scroll" href="#despreMine">
               <i class="material-icons">perm_identity</i> Despre mine
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">
+            <a class="nav-link scroll" href="#contact">
               <i class="material-icons">email</i> Contact
             </a>
           </li>
@@ -102,18 +130,11 @@
       </div>
     </nav>
     <div id="acasa" class="jumbotron hero"></div>
-    <a
-      id="button-messenger"
-      href="https://www.facebook.com/messages/t/aly.remus"
-      target="_blank"
-      class="details-button"
-    >
-      <img class="messenger d-none d-md-block" src="assets/img/messenger.svg" />
-    </a>
     <a id="button-phone" href="tel:+40 748 580 144" class="details-button">
       <img
         class="phone d-sm-block d-md-none d-lg-none"
         src="assets/img/phone.svg"
+        alt="phone"
       />
     </a>
     <div class="container-fluid">
@@ -125,6 +146,7 @@
                 <img
                   class="image image-small"
                   src="/assets/img/clienti/proiecte.svg"
+                  alt="proiecte"
                 />
                 <p class="count">2683</p>
                 <span class="caption">Proiecte</span>
@@ -135,6 +157,7 @@
                 <img
                   class="image image-small"
                   src="/assets/img/clienti/clienti.svg"
+                  alt="clienti"
                 />
                 <p class="count">153</p>
                 <span class="caption">Clienți</span>
@@ -145,6 +168,7 @@
                 <img
                   class="image image-small"
                   src="/assets/img/clienti/kilometeri.svg"
+                  alt="kilometri"
                 />
                 <p class="count">189157</p>
                 <span class="caption">Kilometri parcurși</span>
@@ -155,6 +179,7 @@
                 <img
                   class="image image-small"
                   src="/assets/img/clienti/metri.svg"
+                  alt="metri"
                 />
                 <p class="count">96234</p>
                 <span class="caption">Metri pătrați măsurați</span>
@@ -163,23 +188,28 @@
           </div>
         </div>
       </section>
+
       <section id="servicii" class="row section section-dark">
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <h1 class="title">Aly<strong>CAD</strong></h1>
-              <h5 class="description">
-                Firmă autorizată de către Agenția Națională de Cadastru și
-                Publicitate Imobiliară, va oferă servicii de cadastru și
-                topografie, în vederea înscrierii imobilului dumneavoastră în
-                cartea funciară (intabulare imobil), dezmembrări/alipiri,
-                planuri parcelare, ridicări topografice în scopul obținerii
-                autorizației de construire.
-              </h5>
+              <h1 class="title">Cadastru şi Topografie Iaşi</h1>
+              <div class="description">
+                Persoană fizică autorizată de către Agenția Națională de
+                Cadastru și Publicitate Imobiliară, vă oferă servicii de
+                cadastru și topografie. În vederea înscrierii imobilului
+                dumneavoastră în cartea funciară (intabulare imobil),
+                dezmembrări/alipiri, planuri parcelare, dar și ridicări
+                topografice în scopul obținerii autorizației de construire.
+              </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
               <div class="image-text">
-                <img class="image" src="/assets/img/servicii/cadastru.svg" />
+                <img
+                  class="image"
+                  src="/assets/img/servicii/cadastru.svg"
+                  alt="cadastru"
+                />
                 <span class="caption"
                   >Cadastru și intabulare apartamente/terenuri</span
                 >
@@ -187,14 +217,22 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
               <div class="image-text">
-                <img class="image" src="/assets/img/servicii/dezmembrari.svg" />
+                <img
+                  class="image"
+                  src="/assets/img/servicii/dezmembrari.svg"
+                  alt="dezmembrari"
+                />
                 <span class="caption">Dezmembrări și parcelări</span>
               </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
               <div class="image-text">
-                <img class="image" src="/assets/img/servicii/comasari.svg" />
-                <span class="caption">Comasari sau alipiri de teren</span>
+                <img
+                  class="image"
+                  src="/assets/img/servicii/comasari.svg"
+                  alt="comasari"
+                />
+                <span class="caption">Comasări sau alipiri de teren</span>
               </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
@@ -202,6 +240,7 @@
                 <img
                   class="image"
                   src="/assets/img/servicii/plan-topografic.svg"
+                  alt="plan-topografic"
                 />
                 <span class="caption">Realizare de planuri topografice</span>
               </div>
@@ -209,24 +248,33 @@
           </div>
         </div>
       </section>
+
       <section id="proiecte" class="row section">
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <h1 class="title"><strong>Proiectele</strong> noastre</h1>
-              <h5 class="description">
+              <div class="title"><strong>Proiectele</strong> noastre</div>
+              <div class="description">
                 Suntem autorizați ANCPI și folosim aparatură modernă în vederea
                 realizării documentațiilor de specialitate din domeniu de tipul
                 stații totale, GPS RTK, distomate electronice astfel încât să
                 asigurăm precizia necesară unor măsurători de calitate la un
                 preț corect.
-              </h5>
+              </div>
             </div>
             <div class="col-sm-12 col-md-6">
               <div class="image-text">
-                <h2 class="title">Cadastru</h2>
-                <img class="image" src="/assets/img/proiecte/cadastru-1.svg" />
-                <img class="image" src="/assets/img/proiecte/cadastru-2.svg" />
+                <div class="title">Cadastru</div>
+                <img
+                  class="image"
+                  src="/assets/img/proiecte/cadastru-1.svg"
+                  alt="cadastru-1"
+                />
+                <img
+                  class="image"
+                  src="/assets/img/proiecte/cadastru-2.svg"
+                  alt="cadastru-2"
+                />
                 <span class="caption">
                   Cadastrul este un sistem unitar și obligatoriu de evidență și
                   inventariere sistematică a bunurilor imobile de pe teritoriul
@@ -236,18 +284,20 @@
             </div>
             <div class="col-sm-12 col-md-6">
               <div class="image-text">
-                <h2 class="title">Topografie</h2>
+                <div class="title">Topografie</div>
                 <img
                   class="image"
                   src="/assets/img/proiecte/topografie-1.svg"
+                  alt="topografie-1"
                 />
                 <img
                   class="image"
                   src="/assets/img/proiecte/topografie-2.svg"
+                  alt="topografie-2"
                 />
                 <span class="caption">
                   Topografia este o ramură a geodeziei care se ocupă cu tehnica
-                  măsurătorilor , determinarea poziţiei elementelor scoarţei
+                  măsurătorilor, determinarea poziţiei elementelor scoarţei
                   terestre pe suprafeţe mici.
                 </span>
               </div>
@@ -255,26 +305,31 @@
           </div>
         </div>
       </section>
+
       <section id="despreMine" class="row section section-dark">
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <h1 class="title">Despre <strong>mine</strong></h1>
-              <h5 class="description">
-                Firmă autorizată de către Agenția Națională de Cadastru și
-                Publicitate Imobiliară, va oferă servicii de cadastru și
-                topografie, în vederea înscrierii imobilului dumneavoastră în
-                cartea funciară (intabulare imobil), dezmembrări/alipiri,
-                planuri parcelare, ridicări topografice în scopul obținerii
-                autorizației de construire.
-              </h5>
+              <div class="title">Despre <strong>mine</strong></div>
+              <div class="description">
+                Absolvent al facultății de Hidrotehnică, Geodezie şi Ingineria
+                Mediului, secție a Universității Tehnice "Gh. Asachi" Iași,
+                activez ca persoană fizică autorizată în domeniul cadastral și
+                topografic, atât pe raza județului Iași, cât și al altor județe.
+                Mă consider o persoană serioasă ce oferă servicii de calitate
+                într -un timp scurt și la un preț corect.
+              </div>
             </div>
             <div class="col-12">
-              <img class="profile-image" src="/assets/img/alin.jpg" />
-              <h4>Andronachi Remus-Alin</h4>
-              <h5 class="text-opacity pb-5">Inginer cadastru</h5>
+              <img
+                class="profile-image"
+                src="/assets/img/alin.jpg"
+                alt="alin"
+              />
+              <div class="profile-name">Andronachi Remus-Alin</div>
+              <div class="profile-role text-opacity pb-5">Inginer cadastru</div>
             </div>
-            <div class="col-6">
+            <div class="offset-md-4 col-md-2 col-6">
               <a
                 href="https://www.facebook.com/aly.remus"
                 target="_blank"
@@ -283,11 +338,12 @@
                 <img
                   class="social-image"
                   src="/assets/img/despre-mine/facebook.svg"
+                  alt="facebook"
                 />
                 <p>Facebook</p>
               </a>
             </div>
-            <div class="col-6">
+            <div class="col-md-2 col-6">
               <a
                 href="https://www.facebook.com/aly.remus"
                 target="_blank"
@@ -296,6 +352,7 @@
                 <img
                   class="social-image"
                   src="/assets/img/despre-mine/instagram.svg"
+                  alt="instagram"
                 />
                 <p>Instagram</p>
               </a>
@@ -303,16 +360,18 @@
           </div>
         </div>
       </section>
+
       <section>
         <div class="row">
           <div id="googleMap" class="map-container"></div>
         </div>
       </section>
+
       <section id="contact" class="row section">
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <h1 class="title"><strong>Date de</strong> contact</h1>
+              <div class="title"><strong>Date de</strong> contact</div>
             </div>
             <div class="col-12 col-sm-4">
               <a
@@ -323,6 +382,7 @@
                 <img
                   class="social-image"
                   src="/assets/img/contact/location.svg"
+                  alt="location"
                 />
                 <p>
                   Strada Prof. Anton Sesan, nr.20, bl. I1-4, sc.I3, Iași, RO
@@ -334,6 +394,7 @@
                 <img
                   class="social-image"
                   src="/assets/img/contact/telephone.svg"
+                  alt="telephone"
                 />
                 <p>+40 748 580 144</p>
               </a>
@@ -343,7 +404,11 @@
                 href="mailto:remusalinandronachi@gmail.com"
                 class="social-link"
               >
-                <img class="social-image" src="/assets/img/contact/email.svg" />
+                <img
+                  class="social-image"
+                  src="/assets/img/contact/email.svg"
+                  alt="email"
+                />
                 <p class="text-break">remusalinandronachi@gmail.com</p>
               </a>
             </div>
@@ -356,7 +421,17 @@
         <div class="row">
           <div class="col-12 text-center">
             <p>© 2016-<span id="currentYear"></span> AlyCAD</p>
-            <a href="#acasa" id="backToTop">Înapoi la prima pagină</a>
+          </div>
+          <div class="col-12 text-center">
+            <p>
+              Website realizat de
+              <a
+                href="https://www.3dotsmedia.ro"
+                target="_blank"
+                class="dots-link"
+                ><strong>3dots Media</strong></a
+              >
+            </p>
           </div>
         </div>
       </div>
@@ -367,8 +442,14 @@
 <!-- Bootstrap JS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"
+  async
+></script>
+<script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  async
+></script>
 
 <!-- Custom script -->
 <script src="/assets/scripts/script.js"></script>
