@@ -5,39 +5,37 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Alycad - Cadastru şi Topografie Iaşi</title>
+    <title>Servicii de cadastru şi topografie</title>
 
     <!-- Meta tags -->
+
     <!-- Primary Meta Tags -->
-    <meta name="title" content="Alycad - Cadastru şi Topografie Iaşi" />
+    <title>Servicii de cadastru şi topografie</title>
+    <meta name="title" content="Servicii de cadastru şi topografie" />
     <meta
       name="description"
       content="Persoană fizică autorizată oferă servicii de cadastru și topografie, înscrierii imobilului în cartea funciară, dezmembrări/alipiri, planuri parcelare, ridicări topografice."
     />
-    <meta
-      name="keywords"
-      content="Cadastru, Topografie, Intabulari, Cadastru Iasi, Topografie Iasi, Alin, Remus, AlyCAD, Dezalipiri, Dezmembrari, Romania, Iasi"
-    />
-    <meta name="author" content="Andronachi Remus-Alin" />
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://metatags.io/" />
-    <meta property="og:title" content="Alycad - Cadastru şi Topografie Iaşi" />
+    <meta property="og:url" content="https://cadastruiasi.ro/" />
+    <meta property="og:title" content="Servicii de cadastru şi topografie" />
     <meta
       property="og:description"
       content="Persoană fizică autorizată oferă servicii de cadastru și topografie, înscrierii imobilului în cartea funciară, dezmembrări/alipiri, planuri parcelare, ridicări topografice."
     />
     <meta
       property="og:image"
-      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+      content="http://cadastruiasi.ro/assets/img/cadastru-preview.png"
     />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:url" content="https://cadastruiasi.ro/" />
     <meta
       property="twitter:title"
-      content="Alycad - Cadastru şi Topografie Iaşi"
+      content="Servicii de cadastru şi topografie"
     />
     <meta
       property="twitter:description"
@@ -45,8 +43,9 @@
     />
     <meta
       property="twitter:image"
-      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+      content="http://cadastruiasi.ro/assets/img/cadastru-preview.pn"
     />
+
     <!-- Favicons-->
     <link
       rel="apple-touch-icon"
@@ -71,18 +70,23 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     />
-    <!-- Google fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Google icons -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
     <!-- Custom style -->
     <link href="/assets/styles/css/style.css" rel="stylesheet" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-GHG89G05CG"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-GHG89G05CG");
+    </script>
   </head>
 
   <body>
@@ -129,7 +133,9 @@
         </ul>
       </div>
     </nav>
+
     <div id="acasa" class="jumbotron hero"></div>
+
     <a id="button-phone" href="tel:+40 748 580 144" class="details-button">
       <img
         class="phone d-sm-block d-md-none d-lg-none"
@@ -137,6 +143,38 @@
         alt="phone"
       />
     </a>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v9.0",
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/ro_RO/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+
+    <!-- Your Chat Plugin code -->
+    <div
+      class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="114711619925098"
+      theme_color="#262261"
+      logged_in_greeting="Bună ziua! Cu ce vă putem ajuta?"
+      logged_out_greeting="Bună ziua! Cu ce vă putem ajuta?"
+    ></div>
+
     <div class="container-fluid">
       <section class="row section section-gray">
         <div class="container">
@@ -193,7 +231,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <h1 class="title">Cadastru şi Topografie Iaşi</h1>
+              <h1 class="title">Cadastru şi topografie</h1>
               <div class="description">
                 Persoană fizică autorizată de către Agenția Națională de
                 Cadastru și Publicitate Imobiliară, vă oferă servicii de
