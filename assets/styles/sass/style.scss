@@ -145,6 +145,9 @@ body {
 .section-gray {
   background-color: $dark-gray;
   color: $white;
+  .description {
+    color: $white;
+  }
 }
 
 .title {
@@ -310,17 +313,18 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ecf0f1;
+  padding: 0 1px;
+  background: $pale-gray;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #95a5a6;
+  background: $dark-gray;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #7f8c8d;
+  background: $primary-color;
 }
 
 .details-button {
@@ -357,4 +361,50 @@ body {
     text-decoration: none;
     box-shadow: inset 0 -1px 0 0 $white;
   }
+}
+
+.card {
+  border-color: $pale-gray;
+  margin-bottom: 10px;
+  border-radius: 5px !important;
+  border: 0;
+
+  .card-header {
+    background-color: $pale-gray;
+    border-color: $pale-gray;
+
+    .btn-link {
+      color: $primary-color;
+      font-size: 18px;
+      text-decoration: none;
+      @include alycad-transition;
+    }
+  }
+
+  .collapse {
+    border-radius: 5px;
+    border-bottom: 1px solid $pale-gray;
+  }
+
+  .card-body {
+    font-size: 16px;
+    color: $dark-gray;
+    text-align: left;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px solid $pale-gray;
+    border-right: 1px solid $pale-gray;
+
+    p {
+      margin-bottom: 0.5em;
+      strong {
+        padding-right: 0.5em;
+      }
+    }
+  }
+}
+
+hr {
+  border-color: $primary-color;
 }
