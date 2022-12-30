@@ -60,7 +60,8 @@
   font-family: "Material Icons";
   font-style: normal;
   font-weight: 400;
-  src: url("../../material-icons/MaterialIcons-Regular.eot"); /* For IE6-8 */
+  src: url("../../material-icons/MaterialIcons-Regular.eot");
+  /* For IE6-8 */
   src: local("Material Icons"), local("MaterialIcons-Regular"),
     url("../../material-icons/MaterialIcons-Regular.ttf") format("truetype");
 }
@@ -69,7 +70,8 @@
   font-family: "Material Icons";
   font-weight: normal;
   font-style: normal;
-  font-size: 24px; /* Preferred icon size */
+  font-size: 24px;
+  /* Preferred icon size */
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -145,6 +147,7 @@ body {
 .section-gray {
   background-color: $dark-gray;
   color: $white;
+
   .description {
     color: $white;
   }
@@ -190,6 +193,7 @@ body {
     .image {
       filter: invert(1);
     }
+
     .caption {
       color: $pale-gray;
     }
@@ -342,6 +346,7 @@ body {
     transform: scale(1.1);
   }
 }
+
 .details-button .messenger {
   height: 75px;
   width: 75px;
@@ -356,6 +361,7 @@ body {
   color: $white;
   text-transform: none;
   @include alycad-transition;
+
   &:hover {
     color: $white;
     text-decoration: none;
@@ -398,6 +404,7 @@ body {
 
     p {
       margin-bottom: 0.5em;
+
       strong {
         padding-right: 0.5em;
       }
@@ -407,4 +414,8 @@ body {
 
 hr {
   border-color: $primary-color;
+}
+
+.text-small {
+  font-size: 12px;
 }
